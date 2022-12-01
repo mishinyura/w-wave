@@ -1,0 +1,28 @@
+/* Служебные классы */
+.text-active{
+  visibility: visible;
+}
+.item-active{
+  height: 263px;
+}
+.card-active{
+  opacity: 1;
+  z-index: 10;
+}
+.accordeon-compression{
+  width: 60%;
+}
+.art-active{
+  color: #AA9DFA;
+}
+.modal-active{
+  opacity: 1;
+  visibility: visible;
+}
+.select-active{
+  visibility: visible;
+  height: 149px;
+}
+.click-active{
+  
+}

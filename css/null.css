@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+:root{
+    --bgGrey: #E6E8EC;
+    --bgBlack: #121723;
+    --bgDarkGrey: #121723;
+    --sW: 1132px;
+    --sWM: 844px;
+    --sWS: 562px;
+    --sWXS: 276px;
+}
+
+@font-face {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/MullerRegular.woff2) format('woff2'), url(../fonts/MullerRegular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/MullerMedium.woff2) format('woff2'), url(../fonts/MullerMedium.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/MullerExtraBold.woff2) format('woff2'), url(../fonts/MullerExtraBold.woff) format('woff');
+}
