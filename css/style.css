@@ -1484,11 +1484,31 @@ player mini */
     font-size: 20px;
     line-height: 100%;
     color: #F0D288;
+    outline: none;
 }
 .offer__link::before{
     display: inline-block;
     margin-right: 3px;
     content: url(../icons/yandex_market.svg);
+}
+.offer__link:hover:not(:focus-visible){
+    background-color: #F0D288;
+    color: #121723;
+}
+.offer__link:hover:not(:focus-visible)::before{
+    content: url(../icons/yandex_market_h.svg);
+}
+.offer__link:focus-visible{
+    background-color: #BB973E;
+    color: #121723;
+}
+.offer__link:active:not(:focus-visible){
+    background-color: #BB973E;
+    border-color: #BB973E;
+    color: #121723;
+}
+.offer__link:active:not(:focus-visible)::before{
+    content: url(../icons/yandex_market_a.svg);
 }
 
 
@@ -1496,6 +1516,7 @@ player mini */
 
 /* join-us */
 .join-us{
+    overflow: hidden;
     background-color: #121723;
 }
 .join-us__container{
@@ -1686,6 +1707,7 @@ player mini */
 
 /* footer */
 .footer{
+    overflow: hidden;
     background-color: #292E39;
 }
 .footer__container{
